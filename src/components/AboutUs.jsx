@@ -79,7 +79,7 @@ const AboutUs = () => {
   ];
 
   return (
-    <section className=" text-white py-20 px-6 w-full flex flex-col items-center">
+    <section className="text-white py-20 px-6 w-full flex flex-col items-center" id="about">
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4">About Us</h2>

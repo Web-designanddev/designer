@@ -1,13 +1,9 @@
-import React from "react";
-import { projects } from "../constants";
+import { projects } from "../constants/index.js";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <section
-      id="projects"
-      className=" min-h-screen py-20"
-    >
+    <section id="projects" className="min-h-screen py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12 text-white">
           Explore Our Projects

@@ -69,10 +69,10 @@
 // export default Footer;
 import styles from "../style"; // Ensure correct import path for your CSS module
 import { logo } from "../assets";
-import { footerLinks, socialMedia } from "../constants";
+import { footerLinks, socialMedia } from "../constants/index.js";
 
 const Footer = () => (
-  <section className="bg-#44403c flex flex-col max-w-full">
+  <section className="bg-#44403c flex flex-col max-w-full m-10">
     <div className="md:flex-row flex-col mb-8 w-full">
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
@@ -125,7 +125,7 @@ const Footer = () => (
             className={`w-[21px] h-[21px] object-contain cursor-pointer ${
               index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
             }`}
-            onClick={() => window.open(social.link)}
+            onClick={() => window.open(social.href)}
           />
         ))}
       </div>

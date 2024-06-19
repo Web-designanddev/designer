@@ -21,16 +21,24 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "abut",
+    title: "About Us",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "projects",
+    title: "Projects",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "services",
+    title: "Services",
+  },
+  {
+    id: "testimonials",
+    title: "Testimonials",
+  },
+  {
+    id: "contact",
+    title: "Contact",
   },
 ];
 
@@ -88,34 +96,35 @@ export const projects = [
   {
     title: "Project 1",
     description: "Description of Project 1",
-    image: "path/to/project1.jpg",
+    image: '/Project1.png', // Corrected to 'image'
+    href: "https://foodielove24.netlify.app/",
   },
   {
     title: "Project 2",
     description: "Description of Project 2",
-    image: "path/to/project2.jpg",
+    image: "/Project2.png",
+    href: "https://real-estate-app-fsub.onrender.com/",
   },
   {
     title: "Project 3",
     description: "Description of Project 3",
-    image: "path/to/project3.jpg",
+    image: "/Project3.png",
+    href: "https://chimerical-sopapillas-8538be.netlify.app/",
   },
   {
     title: "Project 4",
     description: "Description of Project 4",
-    image: "path/to/project4.jpg",
+    image: "/Project4.png",
+    href: "https://article-summarizer-ai2.netlify.app/",
   },
   {
     title: "Project 5",
     description: "Description of Project 5",
-    image: "path/to/project5.jpg",
-  },
-  {
-    title: "Project 6",
-    description: "Description of Project 6",
-    image: "path/to/project6.jpg",
+    image: "/Project5.png",
+    href: "https://portfolio-ebrahim-beiatiasl.netlify.app/",
   },
 ];
+
 
 export const footerLinks = [
   {
@@ -199,8 +208,15 @@ export const socialMedia = [
     icon: twitter,
     link: "https://www.twitter.com/",
   },
+  //github
+  // {
+  //   id: "social-media-4",
+  //   icon: github,
+  //   href: "https://github.com/Web-designanddev",
+  // },
+
   {
-    id: "social-media-4",
+    id: "social-media-5",
     icon: linkedin,
     link: "https://www.linkedin.com/",
   },
