@@ -18,27 +18,27 @@ import {
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "خانه",
   },
   {
     id: "about",
-    title: "About Us",
+    title: "درباره ما",
   },
   {
     id: "projects",
-    title: "Projects",
+    title: "پروژه ها",
   },
   {
     id: "services",
-    title: "Services",
+    title: "خدمات",
   },
   {
     id: "testimonials",
-    title: "Testimonials",
+    title: "نظرات",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "تماس با ما",
   },
 ];
 

@@ -8,33 +8,33 @@ import {
 
 const services = [
   {
-    title: "Web Design",
+    title: "طراحی دیزاین",
     description:
-      "Our talented designers craft visually stunning websites that reflect your brand's identity and engage your audience. We focus on user-centric designs that provide an intuitive and seamless experience for your visitors.",
+      "با طراحی‌های خلاقانه و منحصر به فرد، برند شما را به یک اثر هنری تبدیل می‌کنیم. ما با ترکیب هنر و تخصص، تصاویری زیبا و ماندگار خلق می‌کنیم که همه نگاه‌ها را به خود جلب کند.",
     icon: <FaPaintBrush size={50} />,
   },
   {
-    title: "Web Development",
+    title: "توسعه وب",
     description:
-      "Our developers bring designs to life using the latest technologies and best practices. From custom-built websites to e-commerce platforms, we ensure your site is fast, secure, and scalable.",
+      "وب‌سایت شما نمای دیجیتالی کسب‌وکارتان است. ما با توسعه حرفه‌ای و مدرن، وب‌سایتی برای شما می‌سازیم که هم زیباست و هم کارآمد. با ما، حضوری قوی و جذاب در دنیای آنلاین خواهید داشت.",
     icon: <FaCode size={50} />,
   },
   {
     title: "Responsive Design",
     description:
-      "In today's mobile-first world, we ensure your website looks and functions perfectly on any device. Our responsive designs adapt to various screen sizes, providing a consistent user experience across all platforms.",
+      "تعامل کاربران با وب‌سایت شما باید لذت‌بخش و به‌یادماندنی باشد. ما با طراحی‌های تعاملی جذاب، تجربه‌ای خاص و دلنشین برای کاربران شما خلق می‌کنیم که باعث می‌شود همیشه به وب‌سایت شما برگردند.",
     icon: <FaMobileAlt size={50} />,
   },
   {
-    title: "SEO Optimization",
+    title: "بهینه‌سازی سئو",
     description:
-      "A beautiful website is only effective if it's visible to your audience. We implement SEO best practices to improve your site's ranking on search engines, driving more traffic and potential customers to your business.",
+      "در دنیای دیجیتال، دیده شدن همه چیز است. با خدمات سئو ما، وب‌سایت شما همیشه در صدر نتایج جستجو خواهد بود. ما با استراتژی‌های دقیق و به‌روز، ترافیک وب‌سایت شما را به طور طبیعی افزایش می‌دهیم.",
     icon: <FaSearch size={50} />,
   },
   {
-    title: "Ongoing Support",
+    title: "پشتیبانی",
     description:
-      "Our relationship with clients doesn't end after the launch. We offer ongoing support and maintenance to ensure your website stays updated, secure, and running smoothly.",
+      "ما همیشه در کنار شما هستیم تا وب‌سایتتان بدون هیچ مشکلی کار کند. ",
     icon: <FaLifeRing size={50} />,
   },
 ];
@@ -44,10 +44,12 @@ const Services = () => {
     <section className=" text-white py-20 px-6 min-h-screen" id="services">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">Our Services</h2>
+          <h2 className="text-4xl font-bold mb-4">خدمات</h2>
           <p className="text-xl max-w-2xl mx-auto">
-            We offer a range of services to help your business thrive in the
-            digital world.
+            ما یک تیم متخصص و خلاق هستیم که در دنیای دیجیتال فعالیت می‌کنیم. هدف
+            ما ارائه خدماتی استثنایی است که به شما کمک می‌کند تا سایت خود را به
+            اوج موفقیت برسانید. با دانش عمیق و نگرش خلاق، همراه شما در راه رسیدن
+            به اهداف بزرگتر هستیم. قسمت زیر درباره ما
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

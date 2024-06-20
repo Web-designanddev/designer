@@ -102,11 +102,13 @@ const AboutUs = () => {
     >
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">About Us</h2>
+          <h2 className="text-4xl font-bold mb-4">درباره ما</h2>
           <p className="text-xl max-w-2xl mx-auto">
-            At <span className="font-semibold">WebDesignAndDev</span>, we
-            believe in the power of innovative design and cutting-edge
-            technology to transform your ideas into a digital reality.
+            در <span className="font-semibold">WebDesignAndDev</span>, نه تنها
+            سایت‌هایی شیک و مدرن طراحی می‌کنیم، بلکه با استراتژی‌های سئو
+            پیشرفته، برندهای شما را به قله موفقیت خواهیم رساند. همچنین، لوگوها و
+            کارت‌های ویزیتی که با دقت و ذوق طراحی می‌شوند، هویت یکتای شما را به
+            دنیایی از زیبایی و شکوه معرفی می‌کنند.
           </p>
         </div>
 
