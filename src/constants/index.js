@@ -129,64 +129,64 @@ export const projects = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "لینک‌های مفید",
     links: [
       {
-        name: "Content",
+        name: "محتوا",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "چگونه کار می‌کند",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "ایجاد کردن",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Explore",
+        name: "کاوش",
         link: "https://www.hoobank.com/explore/",
       },
       {
-        name: "Terms & Services",
+        name: "قوانین و خدمات",
         link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
   {
-    title: "Community",
+    title: "جامعه",
     links: [
       {
-        name: "Help Center",
+        name: "مرکز کمک",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "شرکا",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "پیشنهادات",
         link: "https://www.hoobank.com/suggestions/",
       },
       {
-        name: "Blog",
+        name: "وبلاگ",
         link: "https://www.hoobank.com/blog/",
       },
       {
-        name: "Newsletters",
+        name: "خبرنامه‌ها",
         link: "https://www.hoobank.com/newsletters/",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "همکار",
     links: [
       {
-        name: "Our Partner",
+        name: "همکار ما",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "شریک شدن",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],

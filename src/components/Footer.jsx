@@ -12,7 +12,7 @@ const Footer = () => (
           className="w-[266px] h-[72.14px] object-contain"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          یک روش جدید برای ساخت پرداخت‌ها آسان، قابل اعتماد و امن.
+           یک روش جدید  آسان، قابل اعتماد و امن برای با هم بودن
         </p>
       </div>
 
