@@ -42,56 +42,57 @@ export const navLinks = [
   },
 ];
 
-export const features = [
-  {
-    id: "feature-1",
-    icon: star,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
-  },
-  {
-    id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
-    content:
-      "We take proactive steps make sure your information and transactions are secure.",
-  },
-  {
-    id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
-];
+// export const features = [
+//   {
+//     id: "feature-1",
+//     icon: star,
+//     title: "Rewards",
+//     content:
+//       "The best credit cards offer some tantalizing combinations of promotions and prizes",
+//   },
+//   {
+//     id: "feature-2",
+//     icon: shield,
+//     title: "100% Secured",
+//     content:
+//       "We take proactive steps make sure your information and transactions are secure.",
+//   },
+//   {
+//     id: "feature-3",
+//     icon: send,
+//     title: "Balance Transfer",
+//     content:
+//       "A balance transfer credit card can save you a lot of money in interest charges.",
+//   },
+// ];
 
 export const feedback = [
   {
     id: "feedback-1",
     content:
       "این سایت واقعاً عالی است! همیشه به موقع و دقیق به سوالاتم پاسخ داده شده است. طراحی سایت هم بسیار کاربرپسند و جذاب است. از خدمات شما بسیار راضی هستم و به دوستانم نیز پیشنهاد کرده‌ام.👍🏻😍",
-    name: "هرمان جنسن",
-    title: "موسس و رهبر",
+    name: " جنیدی",
+    title: "موسس ",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
       "من به تازگی با این سایت آشنا شدم و از کیفیت محتوای ارائه شده بسیار خوشم آمده است. اطلاعات جامع و مفید هستند و کمک بزرگی به من کرده‌اند. از تیم پشتیبانی نیز نهایت تشکر را دارم که همیشه پاسخگو هستند.🌹🌹👌🏻",
-    name: "استیو مارک",
-    title: "موسس و رهبر",
+    name: " مرادی",
+    title: " Designer ",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
       "این سایت یکی از بهترین منابع آنلاین است که تا به حال دیده‌ام. مطالب به‌روز و کاربردی هستند و استفاده از سایت بسیار راحت است. پشتیبانی عالی و تجربه کاربری فوق‌العاده‌ای دارم. پیشنهاد می‌کنم همه از این سایت استفاده کنند.😍",
-    name: "کن گالاگر",
-    title: "موسس و رهبر",
+    name: " گل‌محمدی",
+    title: " Graphic designer",
     img: people03,
   },
 ];
+
 export const projects = [
   {
     title: "Project 1",

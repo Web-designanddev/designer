@@ -11,7 +11,7 @@ import CardDeal from "./components/CardDeal";
 import AboutUs from "./components/AboutUs";
 
 const App = () => (
-  <div  >
+  <div dir="rtl" >
     <div
       className= "w-full overflow-hidden bg-gray-950"
     >
