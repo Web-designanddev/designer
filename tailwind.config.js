@@ -1,4 +1,3 @@
-// tailwind.config.js
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   mode: "jit",
@@ -11,7 +10,8 @@ module.exports = {
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+     
+        "noto-sans-arabic": ["Noto Sans Arabic", "sans-serif"], // Add this line
       },
     },
     screens: {
@@ -24,8 +24,6 @@ module.exports = {
     },
   },
   plugins: [
-    require("tailwindcss-dir")({
-      rtl: true, // enable RTL support
-    }),
+   
   ],
 };

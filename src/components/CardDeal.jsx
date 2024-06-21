@@ -3,11 +3,11 @@ import styles, { layout } from "../style";
 import Button from "./Button";
 
 const CardDeal = () => (
-  <section className="m-10 ">
+  <section className="mr-20 ">
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        <br className="sm:block hidden" /> با ما همراه شوید و به نمایشگاهی از
-        خلاقیت و نوآوری خوش آمدید!
+        <br className="sm:block hidden" /> با ما در نمایشگاه خلاقیت و نو آوری
+        همراه شوید !
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         ما با تمرکز بر طراحی وب سایت، بهینه‌سازی موتور جستجو، طراحی لوگو و کارت

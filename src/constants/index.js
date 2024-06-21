@@ -10,9 +10,7 @@ import {
   binance,
   coinbase,
   dropbox,
-  send,
-  shield,
-  star,
+
 } from "../assets";
 
 export const navLinks = [

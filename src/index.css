@@ -1,9 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply font-noto-sans-arabic;
+  }
+}
 
 :root {
   --black-gradient: linear-gradient(
@@ -15,7 +20,7 @@
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
-* {
+body {
   scroll-behavior: smooth;
 }
 
@@ -35,16 +40,16 @@
   text-fill-color: transparent;
 }
 
-.bg-blue-gradient {background: linear-gradient(
-  187.81deg,
-  #cde45d -13.27%,
-  #b0dd5b -81.24%,
-  #8bda59 16.19%,
-  #67d656 89.82%,
-  #45d353 81.94%,
-  #22c951 99.29%
-);
-
+.bg-blue-gradient {
+  background: linear-gradient(
+    187.81deg,
+    #cde45d -13.27%,
+    #b0dd5b -81.24%,
+    #8bda59 16.19%,
+    #67d656 89.82%,
+    #45d353 81.94%,
+    #22c951 99.29%
+  );
 }
 
 .bg-black-gradient {
@@ -73,9 +78,7 @@
   );
 }
 
-.bg-discount-gradient {
-  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
-}
+
 
 .box-shadow {
   box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
@@ -139,7 +142,7 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
-/* Add these styles in your index.css or App.css */
+
 .flip-card {
   perspective: 1000px;
 }
@@ -156,7 +159,8 @@
   transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
