@@ -34,3 +34,6 @@ const CardDeal = () => (
 );
 
 export default CardDeal;
+
+
+CardDeal.js
