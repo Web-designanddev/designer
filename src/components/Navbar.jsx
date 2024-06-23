@@ -67,8 +67,10 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar ">
-      <img src={logo} alt="logo" className="w-[124px] h-[32px]" />
+    <nav className="w-full flex py-6 justify-between items-center navbar p-10 ">
+      <img src={logo} alt="logo" className="w-[80px] h-[80px] rounded-full" />
+
+     
 
       {/* Desktop Menu */}
       <ul className="list-none sm:flex hidden justify-end  items-center flex-1 text-sky-300">

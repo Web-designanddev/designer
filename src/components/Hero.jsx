@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className={`flex md:flex-row flex-col ${styles.paddingY} mr-20`}
+      className={`flex md:flex-row flex-col ${styles.paddingY} mr-10`}
     >
       <div className={`flex-1  flex-col xl:px-0 sm:px-16 px-4`}>
         <div className="flex flex-wrap items-center py-[6px] px-2 bg-discount-gradient rounded-[10px] mb-3">
@@ -23,17 +23,17 @@ const Hero = () => {
               به دنیایی از طراحی منحصربه‌فرد{" "}
             </span>{" "}
           </h1>
-     
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          خوش آمدید! 
+          خوش آمدید!
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          ما در اینجا نه تنها سایت‌هایی شیک و مدرن طراحی می‌کنیم، بلکه با
-          استراتژی‌های سئو پیشرفته، برندهای شما را به قله موفقیت خواهیم رساند.
-          همچنین، لوگوها و کارت‌های ویزیتی که با دقت و ذوق طراحی می‌شوند، هویت
-          یکتای شما را به دنیایی از زیبایی و شکوه معرفی می‌کنند.
+          در دنیای دیجیتال امروز، وب‌سایت شما نماینده‌ی هویت و اعتبار کسب‌وکار
+          شماست. در وب دیزاینینگ، ما باور داریم که هر وب‌سایت باید بازتابی از
+          رویاها، اهداف و ارزش‌های منحصر به فرد هر برند باشد. با ترکیب هنر و
+          تکنولوژی، ما وب‌سایت‌هایی را خلق می‌کنیم که نه تنها زیبا و چشم‌نواز
+          هستند، بلکه کارآمد و کاربرپسند نیز باشند.{" "}
         </p>
       </div>
 
@@ -43,7 +43,7 @@ const Hero = () => {
         <img
           src={robot}
           alt="billing"
-          className="w-[100%] h-[100%] relative z-[5] transform scale-x-[-1]"
+          className="w-[100%] h-[100%] relative "
         />
 
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
