@@ -11,7 +11,7 @@ const Hero = () => {
       <div className={`flex-1  flex-col xl:px-0 sm:px-16 px-4`}>
         <div className="flex flex-wrap items-center py-[6px] px-2 bg-discount-gradient rounded-[10px] mb-3">
           <img src={discount} alt="discount" />
-          <p className={`${styles.paragraph} text-[24px]`}>
+          <p className={`text-white text-[24px]`}>
             وبسایت شما ،معرف شماست
           </p>
         </div>
@@ -28,7 +28,7 @@ const Hero = () => {
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
           خوش آمدید!
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`text-white max-w-[470px] mt-5`}>
           در دنیای دیجیتال امروز، وب‌سایت شما نماینده‌ی هویت و اعتبار کسب‌وکار
           شماست. در وب دیزاینینگ، ما باور داریم که هر وب‌سایت باید بازتابی از
           رویاها، اهداف و ارزش‌های منحصر به فرد هر برند باشد. با ترکیب هنر و
