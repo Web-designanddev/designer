@@ -3,9 +3,9 @@ import { logo } from "../assets";
 import { footerLinks, socialMedia } from "../constants/index.js";
 
 const Footer = () => (
-  <section className="bg-#44403c flex flex-col max-w-full m-10 mt-[-120px]">
+  <section className="bg-#44403c flex flex-col max-w-full m-10 mt-[-90px]">
     <div className="md:flex-row flex-col mb-8 w-full">
-      <div className="flex-[1] flex flex-col justify-start mr-14">
+      <div className="flex-[1] flex flex-col justify-start ">
         <img src={logo} alt="logo" className="w-[80px] h-[80px] rounded-full" />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
           Web-Design&Develop جایی امن و مورد اعتماد برای باهم بودن

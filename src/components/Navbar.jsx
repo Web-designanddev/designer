@@ -7,7 +7,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar p-10 ">
+    <nav className="w-full flex py-6 justify-between items-center navbar p-8 ">
       <img src={logo} alt="logo" className="w-[80px] h-[80px] rounded-full" />
 
      
