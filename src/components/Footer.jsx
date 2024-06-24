@@ -1,63 +1,121 @@
-import styles from "../style"; // Ensure correct import path for your CSS module
+// import { footerLinks, socialMedia } from "../constants/index.js";
+// import { logo } from "../assets";
+
+// const Footer = () => (
+//   <footer className="bg-gray-900 text-white py-8">
+//     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+//       <div className="flex flex-wrap justify-between items-center">
+//         {/* Logo and Description */}
+//         <div className="w-full md:w-1/4 mb-4">
+//           <img
+//             src={logo}
+//             alt="logo"
+//             className="w-24 h-24 rounded-full mb-4 mx-auto"
+//           />
+//           <p className="text-center text-sm">
+//             Web-Design&Develop جایی امن و مورد اعتماد برای باهم بودن
+//           </p>
+//         </div>
+
+//         {/* Footer Links */}
+//         <div className="flex flex-wrap w-full md:w-3/4">
+//           {footerLinks.map((footerLink) => (
+//             <div
+//               key={footerLink.name}
+//               className="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-8 px-2"
+//             >
+//               <ul className="list-none">
+//                 <li className="mb-2">
+//                   <a href={footerLink.link} className="hover:text-gray-300">
+//                     {footerLink.name}
+//                   </a>
+//                 </li>
+//               </ul>
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+
+//       {/* Social Media Icons */}
+//       <div className="flex justify-center mt-6">
+//         {socialMedia.map((social) => (
+//           <img
+//             key={social.id}
+//             src={social.icon}
+//             alt={social.id}
+//             className="w-6 h-6 object-contain cursor-pointer mx-2"
+//             onClick={() => window.open(social.href)}
+//           />
+//         ))}
+//       </div>
+
+//       {/* Copyright */}
+//       <div className="text-center text-sm mt-8">
+//         &copy; {new Date().getFullYear()} تمامی حقوق محفوظ است | طراحی وب
+//       </div>
+//     </div>
+//   </footer>
+// );
+
+// export default Footer;
 import { logo } from "../assets";
-import { footerLinks, socialMedia } from "../constants/index.js";
+import {  socialMedia } from "../constants";
 
 const Footer = () => (
-  <section className="bg-#44403c flex flex-col max-w-full m-10 mt-[-50px]">
-    <div className="md:flex-row flex-col mb-8 w-full">
-      <div className="flex-[1] flex flex-col justify-start ">
-        <img src={logo} alt="logo" className="w-[80px] h-[80px] rounded-full" />
-        <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          Web-Design&Develop جایی امن و مورد اعتماد برای باهم بودن
-        </p>
-      </div>
-
-      <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mr-10">
-        {footerLinks.map((footerlink) => (
-          <div
-            key={footerlink.title}
-            className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}
-          >
-            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
-              {footerlink.title}
-            </h4>
-            <ul className="list-none mt-4">
-              {footerlink.links.map((link, index) => (
-                <li
-                  key={link.name}
-                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
-                    index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
-                  }`}
-                >
-                  {link.name}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-    </div>
-
-    <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
-      <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
-        &copy; {new Date().getFullYear()} تمامی حقوق محفوظ است | طراحی وب
-      </p>
-
-      <div className="flex flex-row md:mt-0 mt-6 gap-2">
-        {socialMedia.map((social, index) => (
+  <footer className="bg-gray-900 text-white py-8">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="flex flex-wrap justify-between items-center">
+        
+        {/* Logo and Description */}
+        <div className="w-full md:w-1/4 mb-4">
           <img
-            key={social.id}
-            src={social.icon}
-            alt={social.id}
-            className={`w-[21px] h-[21px] object-contain cursor-pointer ${
-              index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-            }`}
-            onClick={() => window.open(social.href)}
+            src={logo}
+            alt="logo"
+            className="w-24 h-24 rounded-full mb-4 mx-auto"
           />
-        ))}
+          <p className="text-center text-sm">
+            Web-Design&Develop جایی امن و مورد اعتماد برای باهم بودن
+          </p>
+        </div>
+  <div >
+        <ul className="flex items-center mr-20  flex-wrap justify-center gap-5 ">
+          <a href="#home">
+            <li>خانه</li>
+          </a>
+          <a href="#about">
+            <li>درباره ما</li>
+          </a>
+          <a href="#projects">
+            <li>پروژه ها</li>
+          </a>
+          <a href="#services">
+            <li>خدمات</li>
+          </a>
+        </ul>
+        </div>
+        {/* Footer Links */}
+    
       </div>
     </div>
-  </section>
+
+    {/* Social Media Icons */}
+    <div className="flex justify-center mt-6">
+      {socialMedia.map((social) => (
+        <img
+          key={social.id}
+          src={social.icon}
+          alt={social.id}
+          className="w-6 h-6 object-contain cursor-pointer mx-2"
+          onClick={() => window.open(social.href)}
+        />
+      ))}
+    </div>
+
+    {/* Copyright */}
+    <div className="text-center text-sm mt-6">
+      &copy; {new Date().getFullYear()} تمامی حقوق محفوظ است | طراحی وب
+    </div>
+  </footer>
 );
 
 export default Footer;

@@ -102,72 +102,66 @@ export const projects = [
 ];
 
 
+// export const footerLinks = [
+//   {
+//     title: "لینک‌های مفید",
+//     links: [
+//       {
+//         name: "خانه",
+//         id: "home",
+//       },
+//       {
+//         id: "about",
+//         name: "درباره ما"
+//       },
+//       {
+//         name: "ایجاد کردن",
+//         link: "https://www.hoobank.com/create/",
+//       },
+//       {
+//         name: "کاوش",
+//         link: "https://www.hoobank.com/explore/",
+//       },
+//       {
+//         name: " خدمات",
+//         link: "https://www.hoobank.com/terms-and-services/",
+//       },
+      //{
+//         name: "وبلاگ",
+//         link: "https://www.hoobank.com/blog/",
+//       },
+//       {
+//         name: "خبرنامه‌ها",
+//         link: "https://www.hoobank.com/newsletters/",
+//       },
+//     ];
+
 export const footerLinks = [
   {
-    title: "لینک‌های مفید",
-    links: [
-      {
-        name: "محتوا",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "چگونه کار می‌کند",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "ایجاد کردن",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "کاوش",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "قوانین و خدمات",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
+    name: "خانه",
+    link: "/home", // assuming the link is the same as the id
   },
   {
-    title: "جامعه",
-    links: [
-      {
-        name: "مرکز کمک",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "شرکا",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "پیشنهادات",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "وبلاگ",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "خبرنامه‌ها",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
+    name: "درباره ما",
+    link: "/about",
   },
   {
-    title: "همکار",
-    links: [
-      {
-        name: "همکار ما",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "شریک شدن",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
+    name: "پروژه ها",
+    link: "/projects",
+  },
+  {
+    name: "خدمات",
+    link: "/services",
+  },
+  {
+    name: "نظرات",
+    link: "/testimonials",
+  },
+  {
+    name: "تماس با ما",
+    link: "/contact",
   },
 ];
-
 export const socialMedia = [
   {
     id: "social-media-1",

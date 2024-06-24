@@ -37,7 +37,7 @@ const Navbar = () => {
         <div
           className={`${
             showMenu ? "flex" : "hidden"
-          } p-6 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar bg-gradient-to-br from-blue-600 to-orange-900 shadow-lg transform transition-transform duration-300 hover:from-gray-600 hover:to-blue-900 hover:scale-105`}
+          } p-6 absolute top-24 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar bg-gradient-to-br from-blue-600 to-orange-900 shadow-lg transform transition-transform duration-300 hover:from-gray-600 hover:to-blue-900 hover:scale-105`}
         >
           <ul className="list-none flex flex-col justify-end items-center flex-1 text-white">
             {navLinks.map((nav, index) => (
