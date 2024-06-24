@@ -41,7 +41,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className=" text-white py-20 px-6 min-h-screen" id="services">
+    <section className="text-white py-20 px-6 min-h-screen" id="services">
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4">خدمات</h2>
@@ -49,23 +49,23 @@ const Services = () => {
             ما یک تیم متخصص و خلاق هستیم که در دنیای دیجیتال فعالیت می‌کنیم. هدف
             ما ارائه خدماتی استثنایی است که به شما کمک می‌کند تا سایت خود را به
             اوج موفقیت برسانید. با دانش عمیق و نگرش خلاق، همراه شما در راه رسیدن
-            به اهداف بزرگتر هستیم. قسمت زیر درباره ما
+            به اهداف بزرگتر هستیم.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white text-black rounded-lg shadow-md overflow-hidden group"
+              className="relative bg-white text-black rounded-lg shadow-md overflow-hidden group"
             >
               <div className="p-6 flex flex-col items-center">
                 <div className="text-blue-500 mb-4">{service.icon}</div>
                 <h4 className="text-2xl font-semibold mb-2">{service.title}</h4>
                 <p className="text-center">{service.description}</p>
               </div>
-              <div className="p-6 bg-blue-500 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out">
+              <div className="absolute inset-0 bg-blue-500 text-white flex flex-col items-center justify-center p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 <h4 className="text-2xl font-semibold mb-2">{service.title}</h4>
-                <p>{service.description}</p>
+                <p className="text-center">{service.description}</p>
               </div>
             </div>
           ))}

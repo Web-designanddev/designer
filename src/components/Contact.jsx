@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="text-white min-h-screen" id="contact">
+    <section className="text-white min-h-screen mt-20" id="contact">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
         <div className="md:w-1/2 text-center md:text-right">
           <h2 className="text-4xl font-bold mb-4">تماس با ما</h2>
