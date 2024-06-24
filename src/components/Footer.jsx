@@ -3,16 +3,16 @@ import { logo } from "../assets";
 import { footerLinks, socialMedia } from "../constants/index.js";
 
 const Footer = () => (
-  <section className="bg-#44403c flex flex-col max-w-full m-10">
+  <section className="bg-#44403c flex flex-col max-w-full m-10 mt-[-120px]">
     <div className="md:flex-row flex-col mb-8 w-full">
-      <div className="flex-[1] flex flex-col justify-start mr-10">
+      <div className="flex-[1] flex flex-col justify-start mr-14">
         <img src={logo} alt="logo" className="w-[80px] h-[80px] rounded-full" />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          یک روش جدید آسان، قابل اعتماد و امن برای با هم بودن
+          Web-Design&Develop جایی امن و مورد اعتماد برای باهم بودن
         </p>
       </div>
 
-      <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
+      <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mr-10">
         {footerLinks.map((footerlink) => (
           <div
             key={footerlink.title}
@@ -43,7 +43,7 @@ const Footer = () => (
         &copy; {new Date().getFullYear()} تمامی حقوق محفوظ است | طراحی وب
       </p>
 
-      <div className="flex flex-row md:mt-0 mt-6">
+      <div className="flex flex-row md:mt-0 mt-6 gap-2">
         {socialMedia.map((social, index) => (
           <img
             key={social.id}

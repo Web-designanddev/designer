@@ -2,16 +2,16 @@ import {
   people01,
   people02,
   people03,
-  facebook,
+  // facebook,
   instagram,
   linkedin,
-  twitter,
   airbnb,
   binance,
   coinbase,
   dropbox,
 
 } from "../assets";
+import telegram from '../assets/telegram.png'
 
 export const navLinks = [
   {
@@ -172,17 +172,17 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    href: "https://www.instagram.com/web_disigning_?igsh=MXV3M2xxZzMzeG9seA==",
   },
+  // {
+  //   id: "social-media-2",
+  //   icon: facebook,
+  //   link: "https://www.facebook.com/",
+  // },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
+    icon: telegram,
+    href: "https://telegram.org/dl",
   },
   //github
   // {
@@ -192,7 +192,7 @@ export const socialMedia = [
   // },
 
   {
-    id: "social-media-5",
+    id: "social-media-3",
     icon: linkedin,
     link: "https://www.linkedin.com/",
   },

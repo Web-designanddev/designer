@@ -32,12 +32,13 @@ const Contact = () => {
 
   return (
     <section className="text-white min-h-screen mt-20" id="contact">
-      {" "}
-      <h2 className="text-4xl font-bold mb-4 text-center  ">تماس با ما</h2>
+      <div>    <h2 className="text-4xl font-bold mb-4 text-center  ">تماس با ما</h2>
       <p className="text-xl mb-8 text-enter flex items-center justify-center mr-4">
         برای هرگونه سوال یا درخواست، با ما تماس بگیرید تا بهترین خدمات را برای
         شما ارائه دهیم.{" "}
-      </p>
+      </p></div>
+      {" "}
+  
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
         <div className="md:w-1/2 text-center md:text-right">
           <form onSubmit={handleSubmit} className="w-full">
@@ -49,7 +50,7 @@ const Contact = () => {
                   value={form.name}
                   onChange={handleChange}
                   placeholder="نام شما"
-                  className="w-full h-12 px-4 rounded-md bg-white text-gray-800 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full h-12 px-4 rounded-md bg-white text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   required
                 />
               </div>
@@ -96,7 +97,7 @@ const Contact = () => {
           </form>
         </div>
         <div className="md:w-1/2 mt-12 md:mt-10 m-2">
-          <div className="bg-white text-gray-800 rounded-lg shadow-md p-24">
+          <div className="bg-white text-gray-800 rounded-lg shadow-md p-16">
             <h3 className="text-3xl font-semibold mb-4">اطلاعات تماس</h3>
             {/* <div className="flex items-center mb-4">
               <HiLocationMarker className="w-6 h-6 mr-3" />
