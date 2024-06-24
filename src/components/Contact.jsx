@@ -32,13 +32,14 @@ const Contact = () => {
 
   return (
     <section className="text-white min-h-screen mt-20" id="contact">
+      {" "}
+      <h2 className="text-4xl font-bold mb-4 text-center  ">تماس با ما</h2>
+      <p className="text-xl mb-8 text-enter flex items-center justify-center mr-4">
+        برای هرگونه سوال یا درخواست، با ما تماس بگیرید تا بهترین خدمات را برای
+        شما ارائه دهیم.{" "}
+      </p>
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
         <div className="md:w-1/2 text-center md:text-right">
-          <h2 className="text-4xl font-bold mb-4">تماس با ما</h2>
-          <p className="text-xl mb-8">
-            ما در اینجا هستیم تا به شما کمک کنیم. از طریق فرم یا جزئیات تماس زیر
-            با ما تماس بگیرید.
-          </p>
           <form onSubmit={handleSubmit} className="w-full">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
@@ -48,7 +49,7 @@ const Contact = () => {
                   value={form.name}
                   onChange={handleChange}
                   placeholder="نام شما"
-                  className="w-full h-12 px-4 rounded-md bg-white text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full h-12 px-4 rounded-md bg-white text-gray-800 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   required
                 />
               </div>
@@ -59,7 +60,7 @@ const Contact = () => {
                   value={form.email}
                   onChange={handleChange}
                   placeholder="ایمیل شما"
-                  className="w-full h-12 px-4 rounded-md bg-white text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full h-12 px-4 rounded-md bg-white text-gray-800 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   required
                 />
               </div>
@@ -70,7 +71,7 @@ const Contact = () => {
                   value={form.phone}
                   onChange={handleChange}
                   placeholder="تلفن شما"
-                  className="w-full h-12 px-4 rounded-md bg-white text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full h-12 text-right px-4 rounded-md bg-white text-gray-800 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   required
                 />
               </div>
@@ -81,7 +82,7 @@ const Contact = () => {
                   onChange={handleChange}
                   rows="4"
                   placeholder="پیام شما..."
-                  className="w-full px-4 py-2 rounded-md bg-white text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-4 py-2 rounded-md bg-white text-gray-800 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   required
                 ></textarea>
               </div>
@@ -94,23 +95,31 @@ const Contact = () => {
             </button>
           </form>
         </div>
-        <div className="md:w-1/2 mt-12 md:mt-16 m-2">
-          <div className="bg-white text-gray-800 rounded-lg shadow-md p-6">
-            <h3 className="text-2xl font-semibold mb-4">اطلاعات تماس</h3>
-            <div className="flex items-center mb-4">
+        <div className="md:w-1/2 mt-12 md:mt-10 m-2">
+          <div className="bg-white text-gray-800 rounded-lg shadow-md p-24">
+            <h3 className="text-3xl font-semibold mb-4">اطلاعات تماس</h3>
+            {/* <div className="flex items-center mb-4">
               <HiLocationMarker className="w-6 h-6 mr-3" />
               <p>خیابان اصلی، شهر، استان، کدپستی 12345</p>
+            </div> */}
+            <div className="flex items-center mb-4">
+              <HiPhone className="w-6 h-6 mr-3" />
+              <p>
+                <a href="tel:+1234567890">۰۹۱۲۶۴۸۶۴۰۸ : مشاوره</a>
+              </p>
             </div>
             <div className="flex items-center mb-4">
               <HiPhone className="w-6 h-6 mr-3" />
               <p>
-                <a href="tel:+1234567890">+1 (234) 567-890</a>
+                <a href="tel:+1234567890"> ۰۹۹۲۴۰۰۸۹۷۰ : پشتیبانی </a>
               </p>
             </div>
             <div className="flex items-center mb-4">
               <HiOutlineMail className="w-6 h-6 mr-3" />
               <p>
-                <a href="mailto:contact@example.com">contact@example.com</a>
+                <a href="mailto:contact@example.com">
+                  webdesignanddev2@gmail.com
+                </a>
               </p>
             </div>
           </div>

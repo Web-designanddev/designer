@@ -20,7 +20,7 @@ const services = [
     icon: <FaCode size={50} />,
   },
   {
-    title: "Responsive Design",
+    title: "طراحی سازگار با موبایل و کامپیوتر",
     description:
       "تعامل کاربران با وب‌سایت شما باید لذت‌بخش و به‌یادماندنی باشد. ما با طراحی‌های تعاملی جذاب، تجربه‌ای خاص و دلنشین برای کاربران شما خلق می‌کنیم که باعث می‌شود همیشه به وب‌سایت شما برگردند.",
     icon: <FaMobileAlt size={50} />,
@@ -58,10 +58,10 @@ const Services = () => {
               key={index}
               className="relative bg-white text-black rounded-lg shadow-md overflow-hidden group"
             >
-              <div className="p-6 flex flex-col items-center">
+              <div className="p-16 flex flex-col items-center">
                 <div className="text-blue-500 mb-4">{service.icon}</div>
                 <h4 className="text-2xl font-semibold mb-2">{service.title}</h4>
-                <p className="text-center">{service.description}</p>
+              
               </div>
               <div className="absolute inset-0 bg-blue-500 text-white flex flex-col items-center justify-center p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 <h4 className="text-2xl font-semibold mb-2">{service.title}</h4>

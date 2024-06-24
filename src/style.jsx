@@ -2,7 +2,7 @@ const styles = {
   boxWidth: "w-full",
 
   heading2:
-    "font-nota-sans-arabic font-semibold text-white xs:text-[28px] text-[40px] xs:leading-[76.8px] leading-[66.8px] w-full",
+    "font-nota-sans-arabic font-semibold text-white xs:text-[28px] text-[40px] xs:leading-[76.8px] leading-[66.8px] w-full text-center",
   paragraph:
     "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
 
